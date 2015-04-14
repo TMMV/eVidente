@@ -68,10 +68,7 @@ angular.module('eVidente.services')
                     var areasSorteadas = [];
                     while(n <= numberOfAreas){
                         var sorteado = areasProblemas[Math.floor((Math.random() * areasProblemas.length))];
-                        console.log(sorteado);
-                        console.log(areasSorteadas);
                         if(verificaSeUsado(sorteado,areasSorteadas)){
-                            console.log("ja temos");
                             n -= 1;
                         }
                         else{
@@ -100,7 +97,6 @@ angular.module('eVidente.services')
                     while(n <= numberOfAreasEspecializacao){
                         var sorteado = areasEspecialista[Math.floor((Math.random() * areasEspecialista.length))];
                         if(verificaSeUsado(sorteado,areasSorteadas)){
-                            console.log("ja temos");
                             n -= 1;
                         }
                         else{

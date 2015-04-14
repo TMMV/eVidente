@@ -1,10 +1,30 @@
-<input type="text">insira o seu nome</input>
-<a href="" ng-click="">Clicar</a>
+<!--título-->    
+<h1>eVIDENTE</h1>
+
+<!--inserir nome-->    
+<!--<div class="form">
+<input type="text" value="Insira o seu nome" position="fixed" margin="0" padding="0"  style="width:600px; height:100px; text-align:center; font-family: 'Playfair Display', serif; font-size:24px; text-transform:uppercase; font-weight: 900; letter-spacing:10px; color:rgba(22,37,38,0.5); margin:0; padding:0; left:0;"></input><br><button><a href="" ng-click="">TORNAR-ME eVIDENTE</a></button>
+</div>-->
+
+<!--anúncio gerado--> 
 <div class="anuncio">
-	<div>{{tituloNome}}</div>
-	<div>{{imagem}}</div>
-	<div>{{descricao}}</div>
-	<div>{{texto}}</div>
-	<div>{{resultados}}</div>
-	<div>{{contactos}}</div>
+    
+	<div class="identidade">
+        
+        <div class="imagem1"><img src="../img/lua1.png" width="40" margin="0"></div>
+        
+        <div class="nome"><h2>{{tituloNome}}</h2></div>
+        
+        <div class="imagem2"><img src="../img/lua2.png" width="40" margin="0"></div>
+        
+    </div>
+    
+	<div class="descricao">{{descricao}}</div>
+    
+	<div class="texto">{{texto}}</div>
+    
+	<div class="resultados">{{resultados}}</div>
+    
+	<div class="contactos"><a href="tel:000–000–000–000">Ligar para <!--{{contactos}}--></a></div>
+    
 </div>
